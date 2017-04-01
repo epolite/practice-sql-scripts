@@ -14,19 +14,19 @@ INSERT INTO person
 VALUES (9, 'Lindsey', 'San Diego', '3423 Severn', 'CA', 94665, 'lindsey@yahoo.com', 'female');
 
 INSERT INTO person
-VALUES (10, 'Brandon', 'Atlanta', '4321 Apple St.', 'GA', 30301, 'brandon@gmail.com', 'male');
+VALUES (100, 'Brandon', 'Atlanta', '4321 Apple St.', 'GA', 30301, 'brandon@gmail.com', 'male');
 
 INSERT INTO person
-VALUES (13, 'Emily', 'St.Louis', '2134 Mrytle Lane', 'MO', 63101, 'emily@yahoo.com', 'female');
+VALUES (105, 'Emily', 'St.Louis', '2134 Mrytle Lane', 'MO', 63101, 'emily@yahoo.com', 'female');
 
 INSERT INTO person
-VALUES (14, 'Keith', 'Jackson', '4532 Cape', 'MS', 39056, 'keith@gmail.com', 'male');
+VALUES (176, 'Keith', 'Jackson', '4532 Cape', 'MS', 39056, 'keith@gmail.com', 'male');
 
 INSERT INTO person
-VALUES (17, 'Lily', 'Miami', '3245 Brussel', 'FL', 33018, 'lily@yahoo.com', 'female');
+VALUES (234, 'Lily', 'Miami', '3245 Brussel', 'FL', 33018, 'lily@yahoo.com', 'female');
 
 INSERT INTO person
-VALUES (20, 'Ashton', 'New York', '763 7th Ave.', 10001, 'ashton@gmail.com', 'male');
+VALUES (213, 'Ashton', 'New York', '763 7th Ave.', 10001, 'ashton@gmail.com', 'male');
 
 
 
@@ -46,19 +46,19 @@ INSERT INTO phone_number
 VALUES (9, '234-323-2342', '657-345-4562');
 
 INSERT INTO phone_number
-VALUES (10, '432-456-2134', '453-675-7546');
+VALUES (100, '432-456-2134', '453-675-7546');
 
 INSERT INTO phone_number
-VALUES (13, '345-435-6536', '234-532-5324');
+VALUES (105, '345-435-6536', '234-532-5324');
 
 INSERT INTO phone_number
-VALUES (14, '532-425-6532', '563-632-7432');
+VALUES (176, '532-425-6532', '563-632-7432');
 
 INSERT INTO phone_number
-VALUES (17, '324-643-6326', '325-563-2636');
+VALUES (234, '324-643-6326', '325-563-2636');
 
 INSERT INTO phone_numbeer
-VALUES (20, '563-627-2674', '463-632-7463');
+VALUES (213, '563-627-2674', '463-632-7463');
 
 
 
@@ -238,6 +238,33 @@ VALUES ('Defining Computer Security Criteria');
 
 
 
+INSERT INTO company
+VALUES (12, 'Geocent', 541511, 'Metairie', 'LA', 70001, 'www.geocent.com');
+
+INSERT INTO company
+VALUES (13, 'Nasa', 541715, 'Stennis Space Center', 'MS', 70001, 'www.nasa.com');
+
+INSERT INTO company
+VALUES (14, 'Computer Education', 541513, 'New Orleans', 'LA', 70131, 'www.comp.edu.com');
+
+INSERT INTO company
+VALUES (15, 'Computer Recovery', 541519, 'New Orleans', 'LA', 70092, 'www.comprecovery.com');
+
+INSERT INTO company
+VALUES (17, 'Amazon Web Services', 518210, 'New Orleans', 'LA', 70232, 'www.aws.com');
+
+INSERT INTO company
+VALUES (18, 'Oracle', 511210, 'New Orleans', 'LA', 782341, 'www.oracle.com');
+
+INSERT INTO company
+VALUES (19, 'Twitter', 541513, 'New Orleans', 'LA', 72421, 'www.twitter.com');
+
+INSERT INTO company
+VALUES (20, 'Computer-Aided Design', 541512, 'New Orleans', 'LA', 74561, 'www.compdesign.com');
+
+
+
+
 INSERT INTO career_cluster
 VALUES ('Database Development and Administration');
 
@@ -265,29 +292,47 @@ VALUES ('Web Development and Administration');
 
 
 
-INSERT INTO company
-VALUES (12, 'Geocent', 541511, 'Metairie', 'LA', 70001, 'www.geocent.com');
+INSERT INTO career_tier
+VALUES ('Tier III', 'Industry-specific technical skills, knowledge, and
+abilities unique to individual industries and organization.');
 
-INSERT INTO company
-VALUES (13, 'Nasa', 541715, 'Stennis Space Center', 'MS', 70001, 'www.nasa.com');
+INSERT INTO career_tier
+VALUES ('Tier II', 'Technical skills, knowledge, and abilities skills common 
+to all jobs within a career cluster across all industries.');
 
-INSERT INTO company
-VALUES (14, 'Computer Education', 541513, 'New Orleans', 'LA', 70131, 'www.comp.edu.com');
+INSERT INTO career_tier
+VALUES ('Tier I', 'The set of foundation skills (SCANS), knowledge, abilities,
+and personal qualities required of all workers to be successful in the
+workplace.');
 
-INSERT INTO company
-VALUES (15, 'Computer Recovery', 541519, 'New Orleans', 'LA', 70092, 'www.comprecovery.com');
 
-INSERT INTO company
-VALUES (17, 'Amazon Web Services', 518210, 'New Orleans', 'LA', 70232, 'www.aws.com');
 
-INSERT INTO company
-VALUES (18, 'Oracle', 511210, 'New Orleans', 'LA', 782341, 'www.oracle.com');
 
-INSERT INTO company
-VALUES (19, 'Twitter', 541513, 'New Orleans', 'LA', 72421, 'www.twitter.com');
 
-INSERT INTO company
-VALUES (20, 'Computer-Aided Design', 541512, 'New Orleans', 'LA', 74561, 'www.compdesign.com');
+INSERT INTO knowledge_skill
+VALUES (435782, 'Database Development and Administration', 'Tier II', 'SQL');
+
+INSERT INTO knowledge_skill
+VALUES (435783, 'Digital Media', 'Tier II', 'JavaScript');
+
+INSERT INTO knowledge_skill
+VALUES (435784, 'Enterprise Systems Analysis and Integration', 'Tier II', 'SQL');
+
+INSERT INTO knowledge_skill
+VALUES (435785, 'Network Design and Administration', 'Tier II', 'PERL');
+
+INSERT INTO knowledge_skill
+VALUES (435786, 'Programming/Software Engineering', 'Tier II', 'JAVA' );
+
+INSERT INTO knowledge_skill
+VALUES (435787, 'Technical Support', 'Tier I', null );
+
+INSERT INTO knowledge_skill
+VALUES (435788, 'Technical Writing', 'Tier I', null );
+
+INSERT INTO knowledge_skill
+VALUES (435789, 'Web Development and Administration', 'Tier II', 'CSS' );
+
 
 
 
@@ -367,20 +412,6 @@ VALUES(21, 57000, 'salary', null, 13, 'Bioinformatician', 17);
 
 
 
-INSERT INTO career_tier
-VALUES ('Tier III', 'Industry-specific technical skills, knowledge, and
-abilities unique to individual industries and organization.');
-
-INSERT INTO career_tier
-VALUES ('Tier II', 'Technical skills, knowledge, and abilities skills common 
-to all jobs within a career cluster across all industries.');
-
-INSERT INTO career_tier
-VALUES ('Tier I', 'The set of foundation skills (SCANS), knowledge, abilities,
-and personal qualities required of all workers to be successful in the
-workplace.');
-
-
 
 
 INSERT INTO comp_job
@@ -410,30 +441,6 @@ VALUES(20, 91);
 
 
 
-INSERT INTO knowledge_skill
-VALUES (435782, 'Database Development and Administration', 'Tier II', 'SQL');
-
-INSERT INTO knowledge_skill
-VALUES (435783, 'Digital Media', 'Tier II', 'JavaScript');
-
-INSERT INTO knowledge_skill
-VALUES (435784, 'Enterprise Systems Analysis and Integration', 'Tier II', 'SQL');
-
-INSERT INTO knowledge_skill
-VALUES (435785, 'Network Design and Administration', 'Tier II', 'PERL');
-
-INSERT INTO knowledge_skill
-VALUES (435786, 'Programming/Software Engineering', 'Tier II', 'JAVA' );
-
-INSERT INTO knowledge_skill
-VALUES (435787, 'Technical Support', 'Tier I', null );
-
-INSERT INTO knowledge_skill
-VALUES (435788, 'Technical Writing', 'Tier I', null );
-
-INSERT INTO knowledge_skill
-VALUES (435789, 'Web Development and Administration', 'Tier II', 'CSS' );
-
 
 
 
@@ -459,19 +466,19 @@ INSERT INTO person_skill
 VALUES(9, 435785);
 
 INSERT INTO person_skill
-VALUES(10, 435789);
+VALUES(100, 435789);
 
 INSERT INTO person_skill
-VALUES(13, 435787);
+VALUES(105, 435787);
 
 INSERT INTO person_skill
-VALUES(14, 435785);
+VALUES(176, 435785);
 
 INSERT INTO person_skill
-VALUES(17, 435786);
+VALUES(234, 435786);
 
 INSERT INTO person_skill
-VALUES(20, 435784);
+VALUES(213, 435784);
 
 
 
@@ -624,34 +631,34 @@ INSERT INTO job_history
 VALUES ('08/12/2013', '03/05/2016', 73, 9);
 
 INSERT INTO job_history
-VALUES ('03/24/2015', 'Currently', 44, 10);
+VALUES ('03/24/2015', 'Currently', 44, 100);
 
 INSERT INTO job_history
-VALUES ('01/27/2103', '02/15/2015', 52, 10);
+VALUES ('01/27/2103', '02/15/2015', 52, 100);
 
 INSERT INTO job_history
-VALUES ('06/21/2016', 'Currently', 91, 13);
+VALUES ('06/21/2016', 'Currently', 91, 105);
 
 INSERT INTO job_history
-VALUES ('04/23/2014', '04/12/2016', 21, 13);
+VALUES ('04/23/2014', '04/12/2016', 21, 105);
 
 INSERT INTO job_history
-VALUES ('03/23/2013', 'Currently', 43, 14);
+VALUES ('03/23/2013', 'Currently', 43, 176);
 
 INSERT INTO job_history
-VALUES ('07/17/2012', '02/13/2013', 82, 14);
+VALUES ('07/17/2012', '02/13/2013', 82, 176);
 
 INSERT INTO job_history
-VALUES ('04/23/2016', 'Currently', 31, 17);
+VALUES ('04/23/2016', 'Currently', 31, 234);
 
 INSERT INTO job_history
-VALUES ('08/15/2014', '03/23/2016', 67, 17 );
+VALUES ('08/15/2014', '03/23/2016', 67, 234);
 
 INSERT INTO job_history
-VALUES ('09/23/2015', 'Currently', 21, 20);
+VALUES ('09/23/2015', 'Currently', 21, 213);
 
 INSERT INTO job_history
-VALUES ('05/14/2013', '08/04/2015', 73, 20);
+VALUES ('05/14/2013', '08/04/2015', 73, 213);
 
 
 
@@ -673,19 +680,19 @@ INSERT INTO takes
 VALUES (9, 325);
 
 INSERT INTO takes
-VALUES (10, 326);
+VALUES (100, 326);
 
 INSERT INTO takes
-VALUES (13, 327);
+VALUES (105, 327);
 
 INSERT INTO takes
-VALUES (14, 328);
+VALUES (176, 328);
 
 INSERT INTO takes
-VALUES (17, 329);
+VALUES (234, 329);
 
 INSERT INTO takes
-VALUES (20, 330);
+VALUES (213, 330);
 
 
 
@@ -705,19 +712,19 @@ INSERT INTO paid_by
 VALUES (9, 21);
 
 INSERT INTO paid_by
-VALUES (10, 44);
+VALUES (100, 44);
 
 INSERT INTO paid_by
-VALUES (13, 91);
+VALUES (105, 91);
 
 INSERT INTO paid_by
-VALUES (14, 43);
+VALUES (176, 43);
 
 INSERT INTO paid_by
-VALUES (17, 31);
+VALUES (234, 31);
 
 INSERT INTO paid_by
-VALUES (20, 21);
+VALUES (213, 21);
 
 
 
