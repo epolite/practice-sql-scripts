@@ -13,22 +13,6 @@ VALUES (7, 'Vanessa', 'Houston', '0324 Hill', 'TX', 12874, 'vanessa@aol.com', 'f
 INSERT INTO person
 VALUES (9, 'Lindsey', 'San Diego', '3423 Severn', 'CA', 94665, 'lindsey@yahoo.com', 'female');
 
-INSERT INTO person
-VALUES (10, 'Brandon', 'Atlanta', '4321 Apple St.', 'GA', 30301, 'brandon@gmail.com', 'male');
-
-INSERT INTO person
-VALUES (13, 'Emily', 'St.Louis', '2134 Mrytle Lane', 'MO', 63101, 'emily@yahoo.com', 'female');
-
-INSERT INTO person
-VALUES (14, 'Keith', 'Jackson', '4532 Cape', 'MS', 39056, 'keith@gmail.com', 'male');
-
-INSERT INTO person
-VALUES (17, 'Lily', 'Miami', '3245 Brussel', 'FL', 33018, 'lily@yahoo.com', 'female');
-
-INSERT INTO person
-VALUES (20, 'Ashton', 'New York', '763 7th Ave.', 10001, 'ashton@gmail.com', 'male');
-
-
 
 INSERT INTO phone_number
 VALUES (2, '702-324-2342', '124-854-2342');
@@ -44,21 +28,6 @@ VALUES (7, '644-234-4532', '567-234-5463');
 
 INSERT INTO phone_number
 VALUES (9, '234-323-2342', '657-345-4562');
-
-INSERT INTO phone_number
-VALUES (10, '432-456-2134', '453-675-7546');
-
-INSERT INTO phone_number
-VALUES (13, '345-435-6536', '234-532-5324');
-
-INSERT INTO phone_number
-VALUES (14, '532-425-6532', '563-632-7432');
-
-INSERT INTO phone_number
-VALUES (17, '324-643-6326', '325-563-2636');
-
-INSERT INTO phone_numbeer
-VALUES (20, '563-627-2674', '463-632-7463');
 
 
 
@@ -458,21 +427,6 @@ VALUES(9, 435787);
 INSERT INTO person_skill
 VALUES(9, 435785);
 
-INSERT INTO person_skill
-VALUES(10, 435789);
-
-INSERT INTO person_skill
-VALUES(13, 435787);
-
-INSERT INTO person_skill
-VALUES(14, 435785);
-
-INSERT INTO person_skill
-VALUES(17, 435786);
-
-INSERT INTO person_skill
-VALUES(20, 435784);
-
 
 
 
@@ -623,36 +577,6 @@ VALUES ('04/21/2016', 'Currently', 21, 9);
 INSERT INTO job_history
 VALUES ('08/12/2013', '03/05/2016', 73, 9);
 
-INSERT INTO job_history
-VALUES ('03/24/2015', 'Currently', 44, 10);
-
-INSERT INTO job_history
-VALUES ('01/27/2103', '02/15/2015', 52, 10);
-
-INSERT INTO job_history
-VALUES ('06/21/2016', 'Currently', 91, 13);
-
-INSERT INTO job_history
-VALUES ('04/23/2014', '04/12/2016', 21, 13);
-
-INSERT INTO job_history
-VALUES ('03/23/2013', 'Currently', 43, 14);
-
-INSERT INTO job_history
-VALUES ('07/17/2012', '02/13/2013', 82, 14);
-
-INSERT INTO job_history
-VALUES ('04/23/2016', 'Currently', 31, 17);
-
-INSERT INTO job_history
-VALUES ('08/15/2014', '03/23/2016', 67, 17 );
-
-INSERT INTO job_history
-VALUES ('09/23/2015', 'Currently', 21, 20);
-
-INSERT INTO job_history
-VALUES ('05/14/2013', '08/04/2015', 73, 20);
-
 
 
 
@@ -672,21 +596,6 @@ VALUES (7, 324);
 INSERT INTO takes
 VALUES (9, 325);
 
-INSERT INTO takes
-VALUES (10, 326);
-
-INSERT INTO takes
-VALUES (13, 327);
-
-INSERT INTO takes
-VALUES (14, 328);
-
-INSERT INTO takes
-VALUES (17, 329);
-
-INSERT INTO takes
-VALUES (20, 330);
-
 
 
 INSERT INTO paid_by
@@ -704,20 +613,6 @@ VALUES (7, 31);
 INSERT INTO paid_by
 VALUES (9, 21);
 
-INSERT INTO paid_by
-VALUES (10, 44);
-
-INSERT INTO paid_by
-VALUES (13, 91);
-
-INSERT INTO paid_by
-VALUES (14, 43);
-
-INSERT INTO paid_by
-VALUES (17, 31);
-
-INSERT INTO paid_by
-VALUES (20, 21);
 
 
 
