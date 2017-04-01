@@ -26,7 +26,7 @@ INSERT INTO person
 VALUES (234, 'Lily', 'Miami', '3245 Brussel', 'FL', 33018, 'lily@yahoo.com', 'female');
 
 INSERT INTO person
-VALUES (213, 'Ashton', 'New York', '763 7th Ave.', 'FL' 10001, 'ashton@gmail.com', 'male');
+VALUES (206, 'Ashton', 'New York', '763 7th Ave.', 'FL', 10001, 'ashton@gmail.com', 'male');
 
 
 
@@ -58,7 +58,7 @@ INSERT INTO phone_number
 VALUES (234, '324-643-6326', '325-563-2636');
 
 INSERT INTO phone_number
-VALUES (213, '563-627-2674', '463-632-7463');
+VALUES (206, '563-627-2674', '463-632-7463');
 
 
 
@@ -479,7 +479,7 @@ INSERT INTO person_skill
 VALUES(234, 435786);
 
 INSERT INTO person_skill
-VALUES(213, 435784);
+VALUES(206, 435784);
 
 
 
@@ -656,10 +656,10 @@ INSERT INTO job_history
 VALUES ('08/15/2014', '03/23/2016', 67, 234);
 
 INSERT INTO job_history
-VALUES ('09/23/2015', 'Currently', 21, 213);
+VALUES ('09/23/2015', 'Currently', 21, 206);
 
 INSERT INTO job_history
-VALUES ('05/14/2013', '08/04/2015', 73, 213);
+VALUES ('05/14/2013', '08/04/2015', 73, 206);
 
 
 
@@ -693,7 +693,7 @@ INSERT INTO takes
 VALUES (234, 329);
 
 INSERT INTO takes
-VALUES (213, 330);
+VALUES (206, 330);
 
 
 
@@ -725,7 +725,7 @@ INSERT INTO paid_by
 VALUES (234, 31);
 
 INSERT INTO paid_by
-VALUES (213, 21);
+VALUES (206, 21);
 
 
 
