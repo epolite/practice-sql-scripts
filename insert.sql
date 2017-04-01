@@ -26,7 +26,7 @@ INSERT INTO person
 VALUES (234, 'Lily', 'Miami', '3245 Brussel', 'FL', 33018, 'lily@yahoo.com', 'female');
 
 INSERT INTO person
-VALUES (213, 'Ashton', 'New York', '763 7th Ave.', 10001, 'ashton@gmail.com', 'male');
+VALUES (213, 'Ashton', 'New York', '763 7th Ave.', 'FL' 10001, 'ashton@gmail.com', 'male');
 
 
 
@@ -57,7 +57,7 @@ VALUES (176, '532-425-6532', '563-632-7432');
 INSERT INTO phone_number
 VALUES (234, '324-643-6326', '325-563-2636');
 
-INSERT INTO phone_numbeer
+INSERT INTO phone_number
 VALUES (213, '563-627-2674', '463-632-7463');
 
 
@@ -310,71 +310,72 @@ workplace.');
 
 
 INSERT INTO knowledge_skill
-VALUES (435782, 'Database Development and Administration', 'Tier II', 'SQL');
+VALUES (435782, 'SQL', 'Database Development and Administration', 'Tier II');
 
 INSERT INTO knowledge_skill
-VALUES (435783, 'Digital Media', 'Tier II', 'JavaScript');
+VALUES (435783, 'JavaScript', 'Digital Media', 'Tier II');
 
 INSERT INTO knowledge_skill
-VALUES (435784, 'Enterprise Systems Analysis and Integration', 'Tier II', 'SQL');
+VALUES (435784, 'SQL', 'Enterprise Systems Analysis and Integration', 'Tier II');
 
 INSERT INTO knowledge_skill
-VALUES (435785, 'Network Design and Administration', 'Tier II', 'PERL');
+VALUES (435785, 'PERL', 'Network Design and Administration', 'Tier II');
 
 INSERT INTO knowledge_skill
-VALUES (435786, 'Programming/Software Engineering', 'Tier II', 'JAVA' );
+VALUES (435786, 'JAVA', 'Programming/Software Engineering', 'Tier II');
 
 INSERT INTO knowledge_skill
-VALUES (435787, 'Technical Support', 'Tier I', null );
+VALUES (435787, 'PC Support', 'Technical Support', 'Tier I');
 
 INSERT INTO knowledge_skill
-VALUES (435788, 'Technical Writing', 'Tier I', null );
+VALUES (435788, 'Defining Computer Security Criteria', 'Technical Writing', 'Tier I');
 
 INSERT INTO knowledge_skill
-VALUES (435789, 'Web Development and Administration', 'Tier II', 'CSS' );
-
+VALUES (435789, 'CSS', 'Web Development and Administration', 'Tier II');
 
 
 
 
 INSERT INTO job_category 
-VALUES (1, null, '100,000', '25,000', 'Computer and Mathematical Occupations');
+VALUES (1, null, 100000, 25000, 'Computer and Mathematical Occupations', 435787);
 
 INSERT INTO job_category 
-VALUES (2, 1, '100,000', '45,000', 'Computer Occupations');
+VALUES (2, 1, 100000, 45000, 'Computer Occupations', 435787);
 
 INSERT INTO job_category 
-VALUES (3, 2, '50,000', '40,000', 'Computer Support Specialists');
+VALUES (3, 2, 50000, 40000, 'Computer Support Specialists', 435787);
 
 INSERT INTO job_category 
-VALUES (4, 3, '50,000', '45,000', 'Computer User Support Specialists');
+VALUES (4, 3, 50000, 45000, 'Computer User Support Specialists', 435787);
 
 INSERT INTO job_category 
-VALUES (5, 2, '120,000', '50,000', 'Software Developers and Programmers');
+VALUES (5, 2, 120000, 50000, 'Software Developers and Programmers', 435786);
 
 INSERT INTO job_category 
-VALUES (6, 5, '100,000', '40,000', 'Web Developers');
+VALUES (6, 5, 100000, 40000, 'Web Developers', 435789);
 
 INSERT INTO job_category 
-VALUES (7, 2, '120,000', '60,000', 'Software Developers and Programmers');
+VALUES (7, 2, 120000, 60000, 'Software Developers and Programmers', 435786);
 
 INSERT INTO job_category 
-VALUES (8, 7, '100,000', '62,000', 'Software Developers, Applications');
+VALUES (8, 7, 100000, 62000, 'Software Developers, Applications', 435786);
 
 INSERT INTO job_category 
-VALUES (9, 7, '100,000', '65,000', 'Computer Programmers');
+VALUES (9, 7, 100000, 65000, 'Computer Programmers', 435786);
 
 INSERT INTO job_category 
-VALUES (10, 2, '65,000', '55,000', 'Computer and Information Analysts');
+VALUES (10, 2, 65000, 55000, 'Computer and Information Analysts', 435784);
 
 INSERT INTO job_category 
-VALUES (11, 10, '120,000', '70,000', 'Information Security Analysts');
+VALUES (11, 10, 120000, 70000, 'Information Security Analysts', 435785);
 
 INSERT INTO job_category 
-VALUES (12, 10, '60,000', '50,000', 'Computer Systems Analysts');
+VALUES (12, 10, 60000, 50000, 'Computer Systems Analysts', 435784);
 
 INSERT INTO job_category 
-VALUES (13, 2, '70,000', '50,000', 'Computer and Information Research Scientists');
+VALUES (13, 2, 70000, 50000, 'Computer and Information Research Scientists', 435788);
+
+
 
 
 
