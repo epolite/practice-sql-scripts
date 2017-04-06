@@ -262,6 +262,8 @@ VALUES (19, 'Twitter', 541513, 'New Orleans', 'LA', 72421, 'www.twitter.com');
 INSERT INTO company
 VALUES (20, 'Computer-Aided Design', 541512, 'New Orleans', 'LA', 74561, 'www.compdesign.com');
 
+INSERT INTO company
+VALUES (23, 'ContingaSoft', 541513, 'New Orleans', 'LA', 70130, 'www.contingasoft.com');
 
 
 
@@ -333,8 +335,6 @@ VALUES (435788, 'Defining Computer Security Criteria', 'Technical Writing', 'Tie
 INSERT INTO knowledge_skill
 VALUES (435789, 'CSS', 'Web Development and Administration', 'Tier II');
 
-INSERT INTO company
-VALUES (22, 'ContingaSoft', 541514, 'New Orleans', 'LA', 70130, 'www.contingasoft.com');
 
 
 
