@@ -263,7 +263,7 @@ INSERT INTO company
 VALUES (20, 'Computer-Aided Design', 541512, 'New Orleans', 'LA', 74561, 'www.compdesign.com');
 
 INSERT INTO company
-VALUES (23, 'ContingaSoft', 541513, 'New Orleans', 'LA', 70130, 'www.contingasoft.com');
+VALUES (23, 'ContingaSoft', 541511, 'New Orleans', 'LA', 70130, 'www.contingasoft.com');
 
 
 
